@@ -3,7 +3,6 @@
 A modular pipeline for **evidence retrieval** and **claim verification**.  
 It combines **BM25 with NER-informed query expansion** for retrieval, and a **two-stage classifier** (Doc2Vec + BiLSTM, followed by SVM) for final label prediction.
 
-![Pipeline](docs/approach.png "Approach Overview — replace with your figure")
 
 ## Key Features
 - **Retrieval-first design**: BM25 with **NER duplication/expansion** and **synonym augmentation** (WordNet). Tuned parameters: `k1=0.6`, `b=0.6`.
